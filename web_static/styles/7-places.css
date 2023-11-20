@@ -1,0 +1,29 @@
+.container .places {
+	width: 100%;
+	margin-top: 25px;
+}
+
+.container .places h1 {
+	font-size: 30px
+}
+
+.container .places article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #ff5a5f;
+	border-radius: 4px;
+	display: inline-block;
+	box-sizing: content-box;
+}
+
+.container .places article:last-of-type {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container .places article h2 {
+	font-size: 30px;
+	text-align: center;
+}
