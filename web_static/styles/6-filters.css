@@ -13,6 +13,7 @@
 	display: inline-block;
 	padding: 20px;
 	padding-left: 40px;
+	position: relative;
 }
 
 .container .filters div h3 {
@@ -26,6 +27,51 @@
 
 .container .filters .locations {
 	border-right: 1px solid #DDDDDD;
+}
+
+.container .filters .amenities {
+	margin-left: -5px;
+}
+
+.container .filters .locations .popover,
+.container .filters .amenities .popover {
+	display: none;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+	background-color: #fafafa;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	padding: 40px;
+}
+
+.container .filters .locations .popover ul,
+.container .filters .amenities .popover li {
+	list-style-type: none;
+}
+
+.container .filters .locations .popover ul li,
+.container .filters .amenities .popover li {
+	margin-bottom: 5px;
+}
+
+.container .filters .locations .popover ul h2 {
+	font-size: 16px;
+}
+
+.container .filters .locations .popover ul:first-child {
+	margin-bottom: 30px
+}
+
+.container .filters .locations .popover ul li{
+	padding-left: 30px;
+}
+
+.container .filters .locations:hover .popover,
+.container .filters .amenities:hover .popover {
+	display: block;
 }
 
 .container .filters button {
