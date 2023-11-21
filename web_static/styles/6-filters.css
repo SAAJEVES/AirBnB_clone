@@ -48,20 +48,20 @@
 	z-index: 9999;
 }
 
-.container .filters .locations .popover ul li,
+.container .filters .locations .popover li ul li,
 .container .filters .amenities .popover li {
 	margin-bottom: 5px;
 }
 
-.container .filters .locations .popover ul h2 {
+.container .filters .locations .popover li h2 {
 	font-size: 16px;
 }
 
-.container .filters .locations .popover ul:first-child {
+.container .filters .locations .popover li ul:first-child {
 	margin-bottom: 30px
 }
 
-.container .filters .locations .popover ul li{
+.container .filters .locations .popover li  ul li{
 	padding-left: 30px;
 }
 
