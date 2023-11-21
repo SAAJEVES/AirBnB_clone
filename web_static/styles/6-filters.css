@@ -48,11 +48,6 @@
 	z-index: 9999;
 }
 
-.container .filters .locations .popover ul,
-.container .filters .amenities .popover li {
-	list-style-type: none;
-}
-
 .container .filters .locations .popover ul li,
 .container .filters .amenities .popover li {
 	margin-bottom: 5px;
